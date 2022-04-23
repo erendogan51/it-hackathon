@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: it-hackathon
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: it-hackathon
+  template:
+    metadata:
+      labels:
+        app: it-hackathon
+    spec:
+      containers:
+      - name: it-hackathon
+        image: eren51/it-hackathon:latest
+        imagePullPolicy: IfNotPresent
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 8090
+          hostPort: 8090
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: it-hackathon-service
+spec:
+  selector:
+    app: it-hackathon
+  type: LoadBalancer
+  ports:
+    - protocol: TCP
+      port: 8090
+      targetPort: 8090
+      nodePort: 30000
