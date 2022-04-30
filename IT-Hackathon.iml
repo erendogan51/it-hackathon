@@ -16,7 +16,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="IT-Hackathon" />
-          <factory-entry name="entityManagerFactory" value="0747c154-ee02-4579-b171-238b43c0a221" />
+          <factory-entry name="entityManagerFactory" value="90545009-75f8-4824-9fd9-a6e5973439b8" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

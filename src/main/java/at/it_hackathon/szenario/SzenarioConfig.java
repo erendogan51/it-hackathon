@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 @Configuration
 public class SzenarioConfig {
@@ -18,12 +19,10 @@ public class SzenarioConfig {
             fragen(new HashSet<>())
             .name("SV-2")
             .schwierigkeit(Schwierigkeit.LEICHT)
-            .absatz1("A geht zu B..")
-            .absatz2("B macht daraufhin..")
-            .absatz3("A und B beschließen")
+            .absaetze(new HashSet<>(Set.of("A geht zu B..", "B macht daraufhin..", "A und B beschließen")))
             .build();
-    Frage frage1 = new Frage("Was würdest du tun", "Wegschauen", "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen", szenario1);
-    Frage frage2 = new Frage("Was würdest du tun", "Wegschauen", "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen", szenario2);
+    Frage frage1 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen", szenario1);
+    Frage frage2 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen", szenario2);
 
     @Bean
     CommandLineRunner commandLineRunnerSzenario(SzenarioRepository szenarioRepository) {

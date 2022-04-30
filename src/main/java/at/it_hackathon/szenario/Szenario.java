@@ -30,26 +30,9 @@ public class Szenario {
     @Enumerated(EnumType.STRING)
     private Schwierigkeit schwierigkeit;
 
+    @ElementCollection
     @Type(type = "text")
-    private String absatz1;
-    @Type(type = "text")
-    private String absatz2;
-    @Type(type = "text")
-    private String absatz3;
-    @Type(type = "text")
-    private String absatz4;
-    @Type(type = "text")
-    private String absatz5;
-    @Type(type = "text")
-    private String absatz6;
-    @Type(type = "text")
-    private String absatz7;
-    @Type(type = "text")
-    private String absatz8;
-    @Type(type = "text")
-    private String absatz9;
-    @Type(type = "text")
-    private String absatz10;
+    private Set<String> absaetze;
 
 
     public Szenario(String name, Set<Frage> fragen, Schwierigkeit schwierigkeit) {

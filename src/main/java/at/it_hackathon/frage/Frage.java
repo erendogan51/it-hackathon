@@ -9,6 +9,7 @@ import org.hibernate.annotations.OnDeleteAction;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,29 +23,32 @@ public class Frage {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String frage;
-    private String antwort1;
-    private String antwort2;
+
+    @ElementCollection
+    private Set<String> antworten;
+
     private String richtigeAntwort;
     @Type(type = "text")
     private String erklaerung;
+
     @ManyToOne
     @JoinColumn(name = "szenario_id", nullable = true)
     @JsonIgnore
     @OnDelete(action = OnDeleteAction.CASCADE)
     private Szenario szenario;
 
-    public Frage(String frage, String antwort1, String antwort2, String richtigeAntwort, Szenario szenario) {
+    public Frage(String frage, Set<String> antworten, String richtigeAntwort, String erklaerung, Szenario szenario) {
         this.frage = frage;
-        this.antwort1 = antwort1;
-        this.antwort2 = antwort2;
+        this.antworten = antworten;
         this.richtigeAntwort = richtigeAntwort;
-        this.szenario=szenario;
+        this.erklaerung = erklaerung;
+        this.szenario = szenario;
     }
 
-    public Frage(String frage, String antwort1, String antwort2, String richtigeAntwort) {
+    public Frage(String frage, Set<String> antworten, String richtigeAntwort, String erklaerung) {
         this.frage = frage;
-        this.antwort1 = antwort1;
-        this.antwort2 = antwort2;
+        this.antworten = antworten;
         this.richtigeAntwort = richtigeAntwort;
+        this.erklaerung = erklaerung;
     }
 }
