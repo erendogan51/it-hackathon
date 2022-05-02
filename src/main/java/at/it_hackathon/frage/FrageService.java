@@ -48,10 +48,11 @@ public class FrageService {
         frageRepository.delete(frage);
     }
 
+
     public void deleteFrageByID(long id) {
         if (!frageRepository.existsById(id))
             throw new IllegalStateException("Frage with id: " + id + " doesnt exist");
-        frageRepository.findById(id).get().setSzenario(null);
+        //frageRepository.findById(id).get().setSzenario(null);
         frageRepository.deleteById(id);
     }
 

@@ -31,20 +31,6 @@ public class Frage {
     @Type(type = "text")
     private String erklaerung;
 
-    @ManyToOne
-    @JoinColumn(name = "szenario_id", nullable = true)
-    @JsonIgnore
-    @OnDelete(action = OnDeleteAction.CASCADE)
-    private Szenario szenario;
-
-    public Frage(String frage, Set<String> antworten, String richtigeAntwort, String erklaerung, Szenario szenario) {
-        this.frage = frage;
-        this.antworten = antworten;
-        this.richtigeAntwort = richtigeAntwort;
-        this.erklaerung = erklaerung;
-        this.szenario = szenario;
-    }
-
     public Frage(String frage, Set<String> antworten, String richtigeAntwort, String erklaerung) {
         this.frage = frage;
         this.antworten = antworten;

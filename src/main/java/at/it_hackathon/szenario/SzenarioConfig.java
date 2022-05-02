@@ -21,8 +21,8 @@ public class SzenarioConfig {
             .schwierigkeit(Schwierigkeit.LEICHT)
             .absaetze(new HashSet<>(Set.of("A geht zu B..", "B macht daraufhin..", "A und B beschließen")))
             .build();
-    Frage frage1 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen", szenario1);
-    Frage frage2 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen", szenario2);
+    Frage frage1 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
+    Frage frage2 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
 
     @Bean
     CommandLineRunner commandLineRunnerSzenario(SzenarioRepository szenarioRepository) {

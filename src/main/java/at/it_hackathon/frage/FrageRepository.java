@@ -11,6 +11,9 @@ import java.util.List;
 @Repository
 public interface FrageRepository extends JpaRepository<Frage, Long> {
 
+    /*
     @Query( "select f from Frage f where f.szenario.id = :id")
     List<Frage> fragenZuEinemSzenario(@Param("id") long id);
+
+     */
 }
