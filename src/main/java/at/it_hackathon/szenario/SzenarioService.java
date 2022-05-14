@@ -2,18 +2,22 @@ package at.it_hackathon.szenario;
 
 import at.it_hackathon.enums.Schwierigkeit;
 import at.it_hackathon.frage.Frage;
+import at.it_hackathon.frage.FrageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Set;
 
 @Service
 public class SzenarioService {
 
     private final SzenarioRepository szenarioRepository;
+    private final FrageRepository frageRepository;
 
     @Autowired
-    public SzenarioService(SzenarioRepository szenarioRepository) {
+    public SzenarioService(SzenarioRepository szenarioRepository, FrageRepository frageRepository) {
+        this.frageRepository = frageRepository;
         this.szenarioRepository = szenarioRepository;
     }
 
@@ -33,10 +37,12 @@ public class SzenarioService {
         szenarioRepository.save(szenario);
     }
 
-    public void addSzenarioWithFrage(Szenario szenario, Frage frage) {
+    public void addSzenarioWithFrage(Szenario szenario, Set<Frage> fragen) {
         if (szenarioRepository.existsById(szenario.getId()))
             throw new IllegalStateException("Szenario with id: " + szenario.getId() + " already exists");
-
+        frageRepository.saveAll(fragen);
+        //szenario.addFrageToSzenario(frage);
+        szenarioRepository.save(szenario);
     }
 
     public void addFrageToSzenario(long frageID) {

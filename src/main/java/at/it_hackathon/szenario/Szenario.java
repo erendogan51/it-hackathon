@@ -2,6 +2,7 @@ package at.it_hackathon.szenario;
 
 
 import at.it_hackathon.enums.Schwierigkeit;
+import at.it_hackathon.enums.Thema;
 import at.it_hackathon.frage.Frage;
 import lombok.*;
 import org.hibernate.annotations.Type;
@@ -27,18 +28,21 @@ public class Szenario {
     @OneToMany(cascade = CascadeType.REMOVE)
     private Set<Frage> fragen;
 
+
     @Enumerated(EnumType.STRING)
-    private Schwierigkeit schwierigkeit;
+    private Thema thema;
 
     @ElementCollection
     @Type(type = "text")
     private Set<String> absaetze;
 
 
-    public Szenario(String name, Set<Frage> fragen, Schwierigkeit schwierigkeit) {
+    //wird benötigt für das hinzufügen mittels POST methode
+    public Szenario(String name, Set<Frage> fragen) {
+        this.name = name;
         this.fragen = fragen;
-        this.schwierigkeit = schwierigkeit;
     }
+
 
     public void addFrageToSzenario(Frage frage){
         this.fragen.add(frage);

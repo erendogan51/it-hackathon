@@ -35,8 +35,8 @@ public class SzenarioController {
     }
 
     @PostMapping("/addwithfrage")
-    public void addSzenarioWithFrage(@RequestBody Szenario szenario, @RequestBody Frage frage) {
-        szenarioService.addSzenarioWithFrage(szenario, frage);
+    public void addSzenarioWithFrage(@RequestBody Szenario szenario) {
+        szenarioService.addSzenarioWithFrage(szenario, szenario.getFragen());
     }
 
     @PutMapping("/update")

@@ -1,6 +1,7 @@
 package at.it_hackathon.szenario;
 
 import at.it_hackathon.enums.Schwierigkeit;
+import at.it_hackathon.frage.FrageRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -10,6 +11,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.HashSet;
+import java.util.Set;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.Mockito.verify;
@@ -19,12 +21,16 @@ class SzenarioServiceTest {
 
     @Mock
     SzenarioRepository szenarioRepository;
+
+    @Mock
+    FrageRepository frageRepository;
+
     SzenarioService szenarioService;
     Szenario szenario;
 
     @BeforeEach
     void setUp() {
-        szenarioService = new SzenarioService(szenarioRepository);
+        szenarioService = new SzenarioService(szenarioRepository, frageRepository);
         szenario = new Szenario();
     }
 
@@ -42,7 +48,7 @@ class SzenarioServiceTest {
 
     @Test
     void canAddSzenario() {
-        Szenario szenario = new Szenario("Test", new HashSet<>(), Schwierigkeit.LEICHT);
+        Szenario szenario = new Szenario("Test", new HashSet<>());
 
         szenarioService.addSzenario(szenario);
         ArgumentCaptor<Szenario> szenarioArgumentCaptor = ArgumentCaptor.forClass(Szenario.class);
@@ -57,9 +63,9 @@ class SzenarioServiceTest {
     @Test
     void updateSzenario() {
         Szenario szenario = Szenario.builder()
-                .schwierigkeit(Schwierigkeit.LEICHT)
                 .fragen(new HashSet<>())
-                .absatz1("")
+                .name("SV-2")
+                .absaetze(new HashSet<>(Set.of("A geht zu B..", "B macht daraufhin..", "A und B beschließen")))
                 .build();
         szenarioRepository.save(szenario);
 

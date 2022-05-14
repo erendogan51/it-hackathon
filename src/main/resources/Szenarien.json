@@ -1,0 +1,77 @@
+[{
+  "name": "Richtiges Verhalten im Krankheitsfall",
+  "fragen": [
+    {
+      "frage": "Ist das Verhalten von Herrn Maier arbeitsrechtlich in Ordnung?",
+      "antworten": [
+        "Ja, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
+        "Herr Maier hätte zumindest seinen Arbeitgeber telefonisch informieren müssen, eine ärztliche Bestätigung ist erst nach einer bestimmten Arbeitsverhinderung vorzulegen.",
+        "Herr Maier hat sich nicht arbeitsrechtlich konform verhalten. Er hätte seinen Arbeitgeber informieren müssen und anschließend einen Arzt / eine Ärztin für die Krankschreibung aufsuchen müssen."
+      ],
+      "richtigeAntwort": "Herr Maier hat sich nicht arbeitsrechtlich konform verhalten. Er hätte seinen Arbeitgeber informieren müssen und anschließend einen Arzt / eine Ärztin für die Krankschreibung aufsuchen müssen.",
+      "erklaerung": " Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
+    },
+    {
+      "frage": "Darf der Arbeitgeber auch für nur einen Tag eine Krankschreibung verlangen?",
+      "antworten": [
+        "Nein, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
+        "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen."
+      ],
+      "richtigeAntwort": "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen.",
+      "erklaerung": "Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber  / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
+    }
+  ],
+  "schwierigkeit": "LEICHT",
+  "thema": "KRANKENSTAND",
+  "absaetze": [
+    "Herr Maier fühlt sich am Morgen sehr schlecht. Er hat Schnupfen und Husten. Da er nicht aufstehen mag, beschließt er nicht zur Arbeit zu gehen. Er kontaktiert auch nicht den Arbeitgeber oder sucht einen Arzt auf.",
+    "Herr Maier fühlt sich am heutigen Tag nicht gesund und beschließt, nur diesen einen Tag nicht zur Arbeit zu erscheinen. Er kontaktier seinen Chef und sagt ihm, dass er heute nicht kommen wird. Dieser verlangt auch für diesen einen Tag eine Krankschreibung vom Arzt.",
+    "A und B beschließen"
+  ]
+},
+  {
+    "name": "",
+    "fragen": [
+      {
+        "frage": "",
+        "antworten": [
+          "",
+          "",
+          ""
+        ],
+        "richtigeAntwort": "",
+        "erklaerung": ""
+      }
+    ],
+    "schwierigkeit": "LEICHT",
+    "thema": "KRANKENSTAND",
+    "absaetze": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "name": "",
+    "fragen": [
+      {
+        "frage": "",
+        "antworten": [
+          "",
+          "",
+          ""
+        ],
+        "richtigeAntwort": "",
+        "erklaerung": ""
+      }
+    ],
+    "schwierigkeit": "LEICHT",
+    "thema": "KRANKENSTAND",
+    "absaetze": [
+      "",
+      "",
+      ""
+    ]
+  }
+
+]
