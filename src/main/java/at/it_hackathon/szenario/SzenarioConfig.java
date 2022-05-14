@@ -23,7 +23,9 @@ public class SzenarioConfig {
             .build();
     Frage frage1 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
     Frage frage2 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
-
+    Frage frage3 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
+    Frage frage4 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
+    Frage frage5 = new Frage("Was würdest du tun", new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
     @Bean
     CommandLineRunner commandLineRunnerSzenario(SzenarioRepository szenarioRepository) {
         return args -> {
@@ -34,14 +36,14 @@ public class SzenarioConfig {
     @Bean
     CommandLineRunner commandLineRunnerFrage2(FrageRepository frageRepository) {
         return args -> {
-            frageRepository.saveAll(List.of(frage1, frage2));
+            frageRepository.saveAll(List.of(frage1, frage2, frage3, frage4, frage5));
         };
     }
 
     @Bean
     CommandLineRunner commandLineRunnerSzenario2(SzenarioRepository szenarioRepository) {
         return args -> {
-            szenario1.addListOfFragenToSzenario(List.of(frage1));
+            szenario1.addListOfFragenToSzenario(List.of(frage1,frage3,frage4,frage5));
             szenario2.addListOfFragenToSzenario(List.of(frage2));
             szenarioRepository.saveAll(List.of(szenario1, szenario2));
         };

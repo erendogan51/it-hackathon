@@ -34,6 +34,7 @@ public class Frage {
     public Frage(String frage, Set<String> antworten, String richtigeAntwort, String erklaerung) {
         this.frage = frage;
         this.antworten = antworten;
+        this.antworten.add(richtigeAntwort);
         this.richtigeAntwort = richtigeAntwort;
         this.erklaerung = erklaerung;
     }
