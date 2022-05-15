@@ -26,22 +26,22 @@ class SzenarioRepositoryTest {
     void setUp() {
     }
 
-    @Disabled
-    @Test
-    public void saveSzenarioTest(){
-        Szenario szenario = new Szenario("Test",new HashSet<>(), Schwierigkeit.LEICHT);
-        szenarioRepository.save(szenario);
-        assertTrue(szenario.getId() > 0);
-    }
-
-    @Disabled
-    @Test
-    public void canGetSzenarioByID(){
-        Szenario szenario = new Szenario("Test2",new HashSet<>(), Schwierigkeit.LEICHT);
-        szenarioRepository.save(szenario);
-
-        assertEquals(szenario.getId(), szenarioRepository.findById(szenario.getId()).get().getId());
-
-    }
+//    @Disabled
+//    @Test
+//    public void saveSzenarioTest(){
+//        Szenario szenario = new Szenario("Test",new HashSet<>(), Schwierigkeit.LEICHT);
+//        szenarioRepository.save(szenario);
+//        assertTrue(szenario.getId() > 0);
+//    }
+//
+//    @Disabled
+//    @Test
+//    public void canGetSzenarioByID(){
+//        Szenario szenario = new Szenario("Test2",new HashSet<>(), Schwierigkeit.LEICHT);
+//        szenarioRepository.save(szenario);
+//
+//        assertEquals(szenario.getId(), szenarioRepository.findById(szenario.getId()).get().getId());
+//
+//    }
 
 }
