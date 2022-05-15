@@ -1,57 +1,58 @@
-[{
-  "name": "Richtiges Verhalten im Krankheitsfall",
-  "fragen": [
-    {
-      "frage": "Ist das Verhalten von Herrn Maier arbeitsrechtlich in Ordnung?",
-      "schwierigkeit": "LEICHT",
-      "antworten": [
-        "Ja, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
-        "Herr Maier hätte zumindest seinen Arbeitgeber telefonisch informieren müssen, eine ärztliche Bestätigung ist erst nach einer bestimmten Arbeitsverhinderung vorzulegen.",
-        "Herr Maier hat sich nicht arbeitsrechtlich konform verhalten. Er hätte seinen Arbeitgeber informieren müssen und anschließend einen Arzt / eine Ärztin für die Krankschreibung aufsuchen müssen."
-      ],
-      "richtigeAntwort": "Herr Maier hat sich nicht arbeitsrechtlich konform verhalten. Er hätte seinen Arbeitgeber informieren müssen und anschließend einen Arzt / eine Ärztin für die Krankschreibung aufsuchen müssen.",
-      "erklaerung": " Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
-    },
-    {
-      "frage": "Darf der Arbeitgeber auch für nur einen Tag eine Krankschreibung verlangen?",
-      "schwierigkeit": "MITTEL",
-      "antworten": [
-        "Nein, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
-        "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen."
-      ],
-      "richtigeAntwort": "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen.",
-      "erklaerung": "Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber  / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
-    },
-    {
-      "frage": "Darf der Arbeitgeber dies verlangen?\n",
-      "schwierigkeit": "",
-      "antworten": [
-        "Nein, der Arbeitgeber muss nur darüber informiert werden, ob Herr Maier krank ist oder einen Unfall hatte.",
-        "Ja, der Arbeitgeber ist vollinhaltlich zu informieren, damit dieser auch besser planen kann."
-      ],
-      "richtigeAntwort": "Nein, der Arbeitgeber muss nur darüber informiert werden, ob Herr Maier krank ist oder einen Unfall hatte.",
-      "erklaerung": "Die Ursache für die Arbeitsunfähigkeit (Krankheit oder Unfall) muss in der Krankenstandsmeldung enthalten sein. Keinesfalls muss in dieser die konkrete Diagnose genannt sein. Auch  besteht keine Verpflichtung des Arbeitnehmers / der Arbeitnehmerin ihre Erkrankung gegenüber dem Arbeitgeber / der Arbeitgeberin offenzulegen."
-    },
-    {
-      "frage": "Muss Frau Müller jetzt Konsequenzen fürchten?\n",
-      "schwierigkeit": "",
-      "antworten": [
-        "Ja, das Versäumnis der Übermittlung stellt einen Entlassungsgrund dar.",
-        "Nein, das Nichtbringen der Krankenstandsbestätigung ist sanktionslos.",
-        "Frau Müller verliert für die Dauer des Säumnisses ihren Anspruch auf Entgelt."
-      ],
-      "richtigeAntwort": "Frau Müller verliert für die Dauer des Säumnisses ihren Anspruch auf Entgelt.",
-      "erklaerung": "Falls ein Arbeitnehmer / Arbeitnehmerin ihrer Melde- und Nachweispflicht nicht nachkommt, kommt es zum Verlust des Anspruchs auf Entgelt für die Dauer des Säumnisses. Wichtig ist, dass die verspätete Krankmeldung bei einem berechtigten Krankenstand regelmäßig keinen Entlassungsgrund darstellt."
-    }
-  ],
-  "thema": "KRANKENSTAND",
-  "absaetze": [
-    "Herr Maier fühlt sich am Morgen sehr schlecht. Er hat Schnupfen und Husten. Da er nicht aufstehen mag, beschließt er nicht zur Arbeit zu gehen. Er kontaktiert auch nicht den Arbeitgeber oder sucht einen Arzt auf.",
-    "Herr Maier fühlt sich am heutigen Tag nicht gesund und beschließt, nur diesen einen Tag nicht zur Arbeit zu erscheinen. Er kontaktier seinen Chef und sagt ihm, dass er heute nicht kommen wird. Dieser verlangt auch für diesen einen Tag eine Krankschreibung vom Arzt.",
-    "Herr Maier übermittelt seinem Chef die gewünschte Krankenstandsmeldung, auf welcher der Grund für den Krankenstand nicht vermerkt ist. Der Arbeitgeber verlangt aber nunmehr auch den Vermerk der Diagnose auf der Krankmeldung.",
-    "Frau Müller übermittelt ihrem Chef die gewünschte Krankenstandsmeldung erst drei Tage nach Beginn des Krankenstandes."
-  ]
-},
+[
+  {
+    "name": "Richtiges Verhalten im Krankheitsfall",
+    "fragen": [
+      {
+        "frage": "Ist das Verhalten von Herrn Maier arbeitsrechtlich in Ordnung?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Ja, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
+          "Herr Maier hätte zumindest seinen Arbeitgeber telefonisch informieren müssen, eine ärztliche Bestätigung ist erst nach einer bestimmten Arbeitsverhinderung vorzulegen.",
+          "Herr Maier hat sich nicht arbeitsrechtlich konform verhalten. Er hätte seinen Arbeitgeber informieren müssen und anschließend einen Arzt / eine Ärztin für die Krankschreibung aufsuchen müssen."
+        ],
+        "richtigeAntwort": "Herr Maier hat sich nicht arbeitsrechtlich konform verhalten. Er hätte seinen Arbeitgeber informieren müssen und anschließend einen Arzt / eine Ärztin für die Krankschreibung aufsuchen müssen.",
+        "erklaerung": " Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
+      },
+      {
+        "frage": "Darf der Arbeitgeber auch für nur einen Tag eine Krankschreibung verlangen?",
+        "schwierigkeit": "MITTEL",
+        "antworten": [
+          "Nein, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
+          "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen."
+        ],
+        "richtigeAntwort": "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen.",
+        "erklaerung": "Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber  / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
+      },
+      {
+        "frage": "Darf der Arbeitgeber dies verlangen?",
+        "schwierigkeit": "MITTEL",
+        "antworten": [
+          "Nein, der Arbeitgeber muss nur darüber informiert werden, ob Herr Maier krank ist oder einen Unfall hatte.",
+          "Ja, der Arbeitgeber ist vollinhaltlich zu informieren, damit dieser auch besser planen kann."
+        ],
+        "richtigeAntwort": "Nein, der Arbeitgeber muss nur darüber informiert werden, ob Herr Maier krank ist oder einen Unfall hatte.",
+        "erklaerung": "Die Ursache für die Arbeitsunfähigkeit (Krankheit oder Unfall) muss in der Krankenstandsmeldung enthalten sein. Keinesfalls muss in dieser die konkrete Diagnose genannt sein. Auch  besteht keine Verpflichtung des Arbeitnehmers / der Arbeitnehmerin ihre Erkrankung gegenüber dem Arbeitgeber / der Arbeitgeberin offenzulegen."
+      },
+      {
+        "frage": "Muss Frau Müller jetzt Konsequenzen fürchten?",
+        "schwierigkeit": "MITTEL",
+        "antworten": [
+          "Ja, das Versäumnis der Übermittlung stellt einen Entlassungsgrund dar.",
+          "Nein, das Nichtbringen der Krankenstandsbestätigung ist sanktionslos.",
+          "Frau Müller verliert für die Dauer des Säumnisses ihren Anspruch auf Entgelt."
+        ],
+        "richtigeAntwort": "Frau Müller verliert für die Dauer des Säumnisses ihren Anspruch auf Entgelt.",
+        "erklaerung": "Falls ein Arbeitnehmer / Arbeitnehmerin ihrer Melde- und Nachweispflicht nicht nachkommt, kommt es zum Verlust des Anspruchs auf Entgelt für die Dauer des Säumnisses. Wichtig ist, dass die verspätete Krankmeldung bei einem berechtigten Krankenstand regelmäßig keinen Entlassungsgrund darstellt."
+      }
+    ],
+    "thema": "KRANKENSTAND",
+    "absaetze": [
+      "Herr Maier fühlt sich am Morgen sehr schlecht. Er hat Schnupfen und Husten. Da er nicht aufstehen mag, beschließt er nicht zur Arbeit zu gehen. Er kontaktiert auch nicht den Arbeitgeber oder sucht einen Arzt auf.",
+      "Herr Maier fühlt sich am heutigen Tag nicht gesund und beschließt, nur diesen einen Tag nicht zur Arbeit zu erscheinen. Er kontaktier seinen Chef und sagt ihm, dass er heute nicht kommen wird. Dieser verlangt auch für diesen einen Tag eine Krankschreibung vom Arzt.",
+      "Herr Maier übermittelt seinem Chef die gewünschte Krankenstandsmeldung, auf welcher der Grund für den Krankenstand nicht vermerkt ist. Der Arbeitgeber verlangt aber nunmehr auch den Vermerk der Diagnose auf der Krankmeldung.",
+      "Frau Müller übermittelt ihrem Chef die gewünschte Krankenstandsmeldung erst drei Tage nach Beginn des Krankenstandes."
+    ]
+  },
   {
     "name": "Alltagsgeschäfte im Krankenstand",
     "fragen": [
@@ -79,25 +80,14 @@
       },
       {
         "frage": "Darf Frau Müller dies während dem Krankenstand?",
-        "schwierigkeit": "",
+        "schwierigkeit": "MITTEL",
         "antworten": [
           "Nein, Frau Müller darf ihre Tochter nicht abholen, da sie krankgeschrieben ist und daher das Haus nicht verlassen darf.",
           "Ja, man darf auch während des Krankenstands sein Leben weiterleben und beispielsweise auch das Fitnessstudio oder ein Kino besuchen.",
           "Sie darf ihre Tochter vom Kindergarten abholen, solang dies ihren Genesungsprozess nicht beeinträchtigt und ihrer Gesundheit unschädlich ist."
         ],
         "richtigeAntwort": "Sie darf ihre Tochter vom Kindergarten abholen, solang dies ihren Genesungsprozess nicht beeinträchtigt und ihrer Gesundheit unschädlich ist.",
-        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden."
-      },
-      {
-        "frage": "",
-        "schwierigkeit": "",
-        "antworten": [
-          "",
-          "",
-          ""
-        ],
-        "richtigeAntwort": "",
-        "erklaerung": ""
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes, der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden."
       }
     ],
     "thema": "KRANKENSTAND",
@@ -105,6 +95,114 @@
       "Herr Huber ist für zwei Wochen krankgeschrieben geschrieben. Er hat einen Golden Retriever, der mehrmals am Tag Gassi geführt werden muss.",
       "Herr Huber hat eine schwere Lungenentzündung und liegt mit Fieber im Bett. Der Arzt betont, dass die Bettruhe strikt einzuhalten ist. Sein Hund, Kommissar Rex, muss aber trotzdem Gassi.",
       "Frau Milly Müller ist im dritten Monat schwanger und als Reinigungskraft in einer Unternehmung angestellt. Aufgrund der Hyperemesis gravidarum (schwere Schwangerschaftsübelkeit) ist sie von ihrem Arzt für die nächsten Tage krankgeschrieben.Sie muss aber täglich ihre Tochter Emilia, 3 Jahre alt, vom Kindergarten abholen."
+    ]
+  },
+  {
+    "name": "Auslandsreisen im Krankenstand",
+    "fragen": [
+      {
+        "frage": "Darf Frau Huber zu ihrer Freundin nach Ungarn reisen?",
+        "schwierigkeit": "MITTEL",
+        "antworten": [
+          "Frau Huber darf auf jeden Fall zu ihrer Freundin ins Ausland reisen, Auslandsreisen sind während einem Krankenstand immer gestattet.",
+          "Frau Huber darf keinesfalls zu ihrer Freundin ins Ausland reisen, Auslandsreisen sind während einem Krankenstand immer unzulässig.",
+          "Ob Frau Huber während dem Krankenstand ins Ausland reisen darf, ist stets anhand des konkreten Einzelfalls zu beurteilen. Sie muss sich für ihre Auslandsreise jedenfalls eine ärztliche Bestätigung darüber geben lassen, dass der Auslandsaufenthalt den Genesungsprozess nicht gefährdet, sondern begünstigen wird.  Es muss auch die österreichiche Krankenkasse informiert werden."
+        ],
+        "richtigeAntwort": "Ob Frau Huber während dem Krankenstand ins Ausland reisen darf, ist stets anhand des konkreten Einzelfalls zu beurteilen. Sie muss sich für ihre Auslandsreise jedenfalls eine ärztliche Bestätigung darüber geben lassen, dass der Auslandsaufenthalt den Genesungsprozess nicht gefährdet, sondern begünstigen wird.  Es muss auch die österreichiche Krankenkasse informiert werden.",
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge oder auch Klima- oder Tapetenwechsel ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden.Außerdem muss der Aufenthaltsortswechsel während eines Krankenstandes  zuvor der Österreichischen Gesundheitskasse gemeldet werden. Sollte eine Verlegung des Aufenthalts ins Ausland erfolgen, muss die Zustimmung der Gesundheitskasse eingeholt werden."
+      }
+    ],
+    "thema": "KRANKENSTAND",
+    "absaetze": [
+      " Frau Silvia Huber ist aufgrund eines Beinbruchs für sieben Tage krankgeschrieben. Ihre Freundin Laura Stammers lädt sie zu sich in ihr Ferienhaus an den Plattensee ein, um mit ihr dort eine schöne Zeit zu verbringen. "
+    ]
+  },
+  {
+    "name": "Reisen im Inland / Fahrten im Inland während des Krankenstandes",
+    "fragen": [
+      {
+        "frage": "Darf Herr Rein nach Vorarlberg fahren?",
+        "schwierigkeit": "SCHWER",
+        "antworten": [
+          "Herr Rein darf zu seinem Zweitwohnsitz fahren, da Reisen in Österreich jederzeit im Krankenstand erlaubt sind.",
+          "Herr Rein darf nicht zu seinem Zweitwohnsitz nach Vorarlberg fahren, Krankenstände sind stets im eigenen Haushalt zu verbringen. ",
+          "Ob eine Person während ihres Krankenstands innerhalb von Österreich ihren Wohnsitz (temporär) verlegen darf, ist stets im Einzelfall zu entscheiden. Da der Arzt Herrn Rein strikte Bettruhe verordnet hat, da ansonsten der Genesungsprozess verzögert würde, darf Herr Rein seinen Zweitwohnsitz in Vorarlberg nicht aufsuchen.  "
+        ],
+        "richtigeAntwort": "Ob eine Person während ihres Krankenstands innerhalb von Österreich ihren Wohnsitz (temporär) verlegen darf, ist stets im Einzelfall zu entscheiden. Da der Arzt Herrn Rein strikte Bettruhe verordnet hat, da ansonsten der Genesungsprozess verzögert würde, darf Herr Rein seinen Zweitwohnsitz in Vorarlberg nicht aufsuchen.  ",
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge oder auch Klima- oder Tapetenwechsel ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden.Außerdem muss der Aufenthaltsortswechsel während eines Krankenstandes  zuvor der Österreichischen Gesundheitskasse gemeldet werden. Sollte eine Verlegung des Aufenthalts ins Ausland erfolgen, muss die Zustimmung der Gesundheitskasse eingeholt werden."
+      },
+      {
+        "frage": "Darf Frau Maurer nach Tirol reisen?",
+        "schwierigkeit": "SCHWER",
+        "antworten": [
+          "Frau Maurer darf zu ihrer Schwester nach Tirol fahren, unabhängig davon, ob es es für ihre Gesundheit positiv oder negativ ist, da man zu Familienmitgliedern immer fahren darf.",
+          "Da der Arzt ihr ausdrücklich empfiehlt, nicht alleine zu sein und mehr Zeit in der Natur zu verbringen, sowie Frau Maurer ansonsten alleine leben würde und Einsamkeit für die Genesung eines Burnouts nichts dienlich ist, darf Frau Maurer aufgrund der ausdrücklichen ärztlichen Empfehlung zu ihrer Schwester fahren. Sie sollte sich hierfür aber eine  ärztliche Bestätigung ausstellen lassen und ihrem Arbeitgeber sowie der österreichischen Gesundheitskasse Bescheid geben.",
+          "Frau Maurer darf nicht zu ihrer Schwester nach Tirol fahren, da Krankenstände stets im eigenen Haushalt zu verbringen sind; auch wenn man alleine wohnt."
+        ],
+        "richtigeAntwort": "Da der Arzt ihr ausdrücklich empfiehlt, nicht alleine zu sein und mehr Zeit in der Natur zu verbringen, sowie Frau Maurer ansonsten alleine leben würde und Einsamkeit für die Genesung eines Burnouts nichts dienlich ist, darf Frau Maurer aufgrund der ausdrücklichen ärztlichen Empfehlung zu ihrer Schwester fahren. Sie sollte sich hierfür aber eine  ärztliche Bestätigung ausstellen lassen und ihrem Arbeitgeber sowie der österreichischen Gesundheitskasse Bescheid geben.",
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge oder auch Klima- oder Tapetenwechsel ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden.Außerdem muss der Aufenthaltsortswechsel während eines Krankenstandes  zuvor der Österreichischen Gesundheitskasse gemeldet werden. Sollte eine Verlegung des Aufenthalts ins Ausland erfolgen, muss die Zustimmung der Gesundheitskasse eingeholt werden."
+      }
+    ],
+    "thema": "KRANKENSTAND",
+    "absaetze": [
+      "Herr Maximilian Rein hat einen schweren Magen-Darm-Infekt. Sein Arzt rät ihm dringend die angeordnete Bettruhe einzuhalten, da andernfalls der Genesungsprozess verzögert werden könnte. Herr Maximilian Rein möchte aber von seinem Hauptwohnsitz in Wien nach Vorarlberg fahren, um dort an seinem Zweitwohnsitz den Krankenstand zu verbringen.",
+      "Frau Linda Maurer ist nach dem Tod ihres Mannes an Burnout erkrankt. Sie lebt alleine in einer kleinen 38 m² Wohnung ohne Gartenzugang in Wien. Der Arzt empfiehlt ihr einen Tapetenwechsel und soll sie wieder mehr Zeit mit ihrer Familie und in der Natur verbringen. Ihre ältere Schwester Luisa Maurer würde ihr anbieten, zu ihr und ihrer Tochter nach Tirol aufs Land zu kommen."
+    ]
+  },
+  {
+    "name": "Kameras am Arbeitsplatz",
+    "fragen": [
+      {
+        "frage": "Darf der AG wie geplant sein Vorhaben durchsetzen?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Ja, der Arbeitgeber hat in seinem Gebäude das sogenannte Hausrecht und kann überall dort, wo er möchte, Videoüberwachung installieren.",
+          "Eine wie vom AG geplante Überwachung ist nicht rechtmäßig. Hingegen kann es angezeigt sein, in bestimmten Bereichen eine Kameraüberwachung zu installieren, wobei eine Kennzeichnung notwendig ist.",
+          "Nein, jegliche Überwachung durch Kamaras ist unzulässig und würde in die Privatsphäre der Mitarbeiter:innen eingreifen."
+        ],
+        "richtigeAntwort": "Eine wie vom AG geplante Überwachung ist nicht rechtmäßig. Hingegen kann es angezeigt sein, in bestimmten Bereichen eine Kameraüberwachung zu installieren, wobei eine Kennzeichnung notwendig ist.",
+        "erklaerung": "Die DSGVO und das DSG regeln in Österreich klar, dass eine Videoüberwachung zur Mitarbeiter:innenkontrolle in Unternehmungen unzulässig ist. Davon ist jedenfalls die Kontrolle von internen Bereichen, wie Pausenräumen und Toilettenbereichen umfasst. Dem AG kommt aber beispielsweise ein berechtigtes Interesse zu, wenn er das Videoüberwachungssystems im Schutz vor bzw. in der Hilfe zur Aufklärung von Diebstählen oder Überfällen einsetzen will; dies beispielsweise im Schalterraum einer Bank. Wesentlich ist, dass nicht primär Arbeitnehmer:innen beobachtet werden sollen. Jedenfalls ist aber das Interesse des Arbeitgebers am Einsatz von Videokameras und andererseits das Interesse der Arbeitnehmer:innen, nicht gefilmt zu werden, gegeneinander abzuwägen."
+      },
+      {
+        "frage": "Darf der AG wie geplant sein Vorhaben durchsetzen?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Ja, der Arbeitgeber hat in seinem Gebäude das sogenannte Hausrecht und kann überall dort, wo er möchte, Videoüberwachung installieren.",
+          "Eine wie vom AG geplante Überwachung ist nicht rechtmäßig. Hingegen kann es angezeigt sein, in bestimmten Bereichen eine Kameraüberwachung zu installieren, wobei eine Kennzeichnung notwendig ist.",
+          "Nein, jegliche Überwachung durch Kamaras ist unzulässig und würde in die Privatsphäre der Mitarbeiter:innen eingreifen."
+        ],
+        "richtigeAntwort": "Eine wie vom AG geplante Überwachung ist nicht rechtmäßig. Hingegen kann es angezeigt sein, in bestimmten Bereichen eine Kameraüberwachung zu installieren, wobei eine Kennzeichnung notwendig ist.",
+        "erklaerung": "Die DSGVO und das DSG regeln in Österreich klar, dass eine Videoüberwachung zur Mitarbeiter:innenkontrolle in Unternehmungen unzulässig ist. Davon ist jedenfalls die Kontrolle von internen Bereichen, wie Pausenräumen und Toilettenbereichen umfasst. Dem AG kommt aber beispielsweise ein berechtigtes Interesse zu, wenn er das Videoüberwachungssystems im Schutz vor bzw. in der Hilfe zur Aufklärung von Diebstählen oder Überfällen einsetzen will; dies beispielsweise im Schalterraum einer Bank. Wesentlich ist, dass nicht primär Arbeitnehmer:innen beobachtet werden sollen. Jedenfalls ist aber das Interesse des Arbeitgebers am Einsatz von Videokameras und andererseits das Interesse der Arbeitnehmer:innen, nicht gefilmt zu werden, gegeneinander abzuwägen."
+      },
+      {
+        "frage": "Darf er die Installation durchführen?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Ja, der Arbeitgeber hat in seinem Gebäude das sogenannte Hausrecht und kann überall dort, wo er möchte, Videoüberwachung installieren",
+          "Nein, jegliche Überwachung durch Kamaras ist unzulässig und würde in die Privatsphäre der Mitarbeiter:innen eingreifen.",
+          "Ja, die vom Bankdirektor angedachte Videoüberwachung verwirklicht nicht den Zweck, die Mitarbeiter:innen zu kontrollieren, sondern dient dem Schutz vor bzw. in der Hilfe zur Aufklärung von Diebstählen oder Überfällen."
+        ],
+        "richtigeAntwort": "Ja, die vom Bankdirektor angedachte Videoüberwachung verwirklicht nicht den Zweck, die Mitarbeiter:innen zu kontrollieren, sondern dient dem Schutz vor bzw. in der Hilfe zur Aufklärung von Diebstählen oder Überfällen.",
+        "erklaerung": "Die DSGVO und das DSG regeln in Österreich klar, dass eine Videoüberwachung zur Mitarbeiter:innenkontrolle in Unternehmungen unzulässig ist. Davon ist jedenfalls die Kontrolle von internen Bereichen, wie Pausenräumen und Toilettenbereichen umfasst. Dem AG kommt aber beispielsweise ein berechtigtes Interesse zu, wenn er das Videoüberwachungsystems im Schutz vor bzw. in der Hilfe zur Aufklärung von Diebstählen oder Überfällen einsetzen will; dies beispielsweise im Schalterraum einer Bank. Wesentlich ist, dass nicht primär Arbeitnehmer:innen beobachtet werden sollen. Jedenfalls ist aber das Interesse des Arbeitgebers am Einsatz von Videokameras und andererseits das Interesse der Arbeitnehmer:innen, nicht gefilmt zu werden, gegeneinander abzuwägen. "
+      },
+      {
+        "frage": "Wie kann sich Frau Payer gegen diese rechtswidrige Überwachung wehren?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Frau Payer kann sich gegen unzulässige Überwachungsmaßnahmen an das  Arbeits- und Sozialgericht wenden und eine Klage auf Unterlassung der rechtswidrigen Überwachung und gegebenenfalls auch auf Beseitigung der rechtswidrig angebrachten Überwachungskameras einbringen. ",
+          "Frau Payer kann sich an den Volksanwalt wenden. Die Arbeiterkammer ist für diese Fragen nicht zuständig.",
+          "Frau Payer kann nichts dagegen tun, da der primäre Ansprechpartner der Betriebsrat ist und in diesem kleinen Betrieb kein Betriebsrat vorhanden ist. "
+        ],
+        "richtigeAntwort": " Frau Payer kann sich gegen unzulässige Überwachungsmaßnahmen an das  Arbeits- und Sozialgericht wenden und eine Klage auf Unterlassung der rechtswidrigen Überwachung und gegebenenfalls auch auf Beseitigung der rechtswidrig angebrachten Überwachungskameras einbringen. ",
+        "erklaerung": "Grundsätzlich ist in Betrieben mit Betriebsrat dieser primäre Ansprechperson in solchen Angelegenheiten, da diesem Einsichts- und Kontrollrechte gegen den Betriebsinhaber zu kommen. Es kann sich auch hilfesuchend an die Arbeiterkammer und Gewerkschaften gewandt werden. Im Allgemeinen kann beim Arbeits- und Sozialgericht auf Unterlassung der rechtswidrigen Überwachung und gegebenenfalls auch auf Beseitigung der beispielsweise rechtswidrig angebrachten Überwachungskameras geklagt werden. Allenfalls kann auch eine Beschwerde bei der Datenschutzbehörde eingebracht werden."
+      }
+    ],
+    "thema": "UEBERWACHUNG",
+    "absaetze": [
+      "Der AG hat ein Bürogebäude mit 50 Arbeitsplätzen auf 3 Stockwerke. Aufgrund des teuren Equipment, welches sich im Objekt befindet und des relativ freiem Zugangs seitens AN möchte der AG Kameras in allen Räumlichkeiten, inklusive WC installieren.",
+      "Der AG hat ein Bürogebäude mit 50 Arbeitsplätzen auf 3 Stockwerke. Aufgrund des teuren Equipment, welches sich im Objekt befindet und des relativ freiem Zugangs seitens AN möchte der AG Kameras in allen Räumlichkeiten, so auch den Pausenräumen installieren. Ausgenommen sind lediglich die  WC-Anlagen.",
+      "Der Bankdirektor beschließt möchte den Schalterbereich seiner Filiale mit Kameras gegen Diebstahl udgl absichern.",
+      "Frau Payer arbeitet als Kassiererin in einem kleinen Geschäft im 1. Bezirk in Wien. Sie bemerkt eine Kamera im Pausenraum."
     ]
   }
 ]

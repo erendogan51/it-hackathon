@@ -37,12 +37,12 @@ public class SzenarioService {
         szenarioRepository.save(szenario);
     }
 
-    public void addSzenarioWithFrage(Szenario szenario, Set<Frage> fragen) {
-        if (szenarioRepository.existsById(szenario.getId()))
-            throw new IllegalStateException("Szenario with id: " + szenario.getId() + " already exists");
-        frageRepository.saveAll(fragen);
-        //szenario.addFrageToSzenario(frage);
-        szenarioRepository.save(szenario);
+    public void addSzenarienWithFrage(List<Szenario> szenarien) {
+        for (Szenario szenario: szenarien) {
+            if (szenarioRepository.existsById(szenario.getId())) throw new IllegalStateException("Szenario with id: " + szenario.getId() + " already exists");
+            frageRepository.saveAll(szenario.getFragen());
+            szenarioRepository.save(szenario);
+        }
     }
 
     public void addFrageToSzenario(long frageID) {

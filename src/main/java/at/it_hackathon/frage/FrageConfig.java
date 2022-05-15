@@ -13,14 +13,14 @@ import java.util.Set;
 public class FrageConfig {
 
 
-    @Bean
-    CommandLineRunner commandLineRunnerFrage(FrageRepository repository){
-        return args -> {
-            Frage frage1 = new Frage("Was würdest du tun", Schwierigkeit.MITTEL, new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
-            Frage frage2 = new Frage("Was würdest du tun", Schwierigkeit.LEICHT,new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
-            repository.saveAll(List.of(frage1, frage2));
-        };
-    }
+//    @Bean
+//    CommandLineRunner commandLineRunnerFrage(FrageRepository repository){
+//        return args -> {
+//            Frage frage1 = new Frage("Was würdest du tun", Schwierigkeit.MITTEL, new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
+//            Frage frage2 = new Frage("Was würdest du tun", Schwierigkeit.LEICHT,new HashSet<>(Set.of("Wegschauen", "Nichts Tun")), "Sofort Melden", "Warten und mit meinen KollegenInnen besprechen");
+//            repository.saveAll(List.of(frage1, frage2));
+//        };
+//    }
 
 
 

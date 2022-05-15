@@ -4,5 +4,6 @@ public enum Thema {
     ARBEITSRECHT,
     KRANKENSTAND,
     HOME_OFFICE,
-    URLAUB
+    URLAUB,
+    UEBERWACHUNG
 }
