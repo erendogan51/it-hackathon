@@ -1,6 +1,5 @@
 package at.it_hackathon.szenario;
 
-import at.it_hackathon.enums.Schwierigkeit;
 import at.it_hackathon.frage.FrageRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;

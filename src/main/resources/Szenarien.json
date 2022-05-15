@@ -3,6 +3,7 @@
   "fragen": [
     {
       "frage": "Ist das Verhalten von Herrn Maier arbeitsrechtlich in Ordnung?",
+      "schwierigkeit": "LEICHT",
       "antworten": [
         "Ja, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
         "Herr Maier hätte zumindest seinen Arbeitgeber telefonisch informieren müssen, eine ärztliche Bestätigung ist erst nach einer bestimmten Arbeitsverhinderung vorzulegen.",
@@ -13,27 +14,83 @@
     },
     {
       "frage": "Darf der Arbeitgeber auch für nur einen Tag eine Krankschreibung verlangen?",
+      "schwierigkeit": "MITTEL",
       "antworten": [
         "Nein, man muss erst nach sieben Tagen eine ärztliche Bestätigung beischaffen.",
         "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen."
       ],
       "richtigeAntwort": "Ja, der Arbeitgeber hat das Recht auch nur für einen Tag eine Krankenstandsmeldung zu verlangen.",
       "erklaerung": "Im Krankheitsfall ist ein Arbeitnehmer / eine Arbeitnehmerin verpflichtet, dem Arbeitgeber oder der Arbeitgeberin unverzüglich von der Arbeitsverhinderung (= den Krankenstand) in Kenntnis zu setzen. Dies ist meistens durch ein Telefonat, am besten zu Arbeitsbeginn oder noch davor, erledigbar. Danach sollte eine ärztliche Krankschreibung erfolgen, welche der Arbeitgeber  / die Arbeitgeberin auch für nur einen einzelnen Krankenstandstag fordern kann."
+    },
+    {
+      "frage": "Darf der Arbeitgeber dies verlangen?\n",
+      "schwierigkeit": "",
+      "antworten": [
+        "Nein, der Arbeitgeber muss nur darüber informiert werden, ob Herr Maier krank ist oder einen Unfall hatte.",
+        "Ja, der Arbeitgeber ist vollinhaltlich zu informieren, damit dieser auch besser planen kann."
+      ],
+      "richtigeAntwort": "Nein, der Arbeitgeber muss nur darüber informiert werden, ob Herr Maier krank ist oder einen Unfall hatte.",
+      "erklaerung": "Die Ursache für die Arbeitsunfähigkeit (Krankheit oder Unfall) muss in der Krankenstandsmeldung enthalten sein. Keinesfalls muss in dieser die konkrete Diagnose genannt sein. Auch  besteht keine Verpflichtung des Arbeitnehmers / der Arbeitnehmerin ihre Erkrankung gegenüber dem Arbeitgeber / der Arbeitgeberin offenzulegen."
+    },
+    {
+      "frage": "Muss Frau Müller jetzt Konsequenzen fürchten?\n",
+      "schwierigkeit": "",
+      "antworten": [
+        "Ja, das Versäumnis der Übermittlung stellt einen Entlassungsgrund dar.",
+        "Nein, das Nichtbringen der Krankenstandsbestätigung ist sanktionslos.",
+        "Frau Müller verliert für die Dauer des Säumnisses ihren Anspruch auf Entgelt."
+      ],
+      "richtigeAntwort": "Frau Müller verliert für die Dauer des Säumnisses ihren Anspruch auf Entgelt.",
+      "erklaerung": "Falls ein Arbeitnehmer / Arbeitnehmerin ihrer Melde- und Nachweispflicht nicht nachkommt, kommt es zum Verlust des Anspruchs auf Entgelt für die Dauer des Säumnisses. Wichtig ist, dass die verspätete Krankmeldung bei einem berechtigten Krankenstand regelmäßig keinen Entlassungsgrund darstellt."
     }
   ],
-  "schwierigkeit": "LEICHT",
   "thema": "KRANKENSTAND",
   "absaetze": [
     "Herr Maier fühlt sich am Morgen sehr schlecht. Er hat Schnupfen und Husten. Da er nicht aufstehen mag, beschließt er nicht zur Arbeit zu gehen. Er kontaktiert auch nicht den Arbeitgeber oder sucht einen Arzt auf.",
     "Herr Maier fühlt sich am heutigen Tag nicht gesund und beschließt, nur diesen einen Tag nicht zur Arbeit zu erscheinen. Er kontaktier seinen Chef und sagt ihm, dass er heute nicht kommen wird. Dieser verlangt auch für diesen einen Tag eine Krankschreibung vom Arzt.",
-    "A und B beschließen"
+    "Herr Maier übermittelt seinem Chef die gewünschte Krankenstandsmeldung, auf welcher der Grund für den Krankenstand nicht vermerkt ist. Der Arbeitgeber verlangt aber nunmehr auch den Vermerk der Diagnose auf der Krankmeldung.",
+    "Frau Müller übermittelt ihrem Chef die gewünschte Krankenstandsmeldung erst drei Tage nach Beginn des Krankenstandes."
   ]
 },
   {
-    "name": "",
+    "name": "Alltagsgeschäfte im Krankenstand",
     "fragen": [
       {
+        "frage": "Darf Herr Huber seinen Hund während seines Krankenstandes ausführen?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Nein, er muss sich einen Hundesitter suchen.",
+          "Ja, man darf immer während des Krankenstandes spazieren gehen.",
+          "Es kommt auf die Erkrankung an."
+        ],
+        "richtigeAntwort": "Es kommt auf die Erkrankung an. ",
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden."
+      },
+      {
+        "frage": "Darf Herr Huber seinen Hund während seines Krankenstandes ausführen?",
+        "schwierigkeit": "LEICHT",
+        "antworten": [
+          "Er kann trotzdem mit Rex hinaus, denn als fürsorglicher Halter sorgt er sich um ihn.",
+          "Er kann nur ganz kurz hinaus, muss aber gleich wieder ins Bett.",
+          "Er muss zuhause bleiben und Freunde, Familie oder einen Hundesitter um Hilfe bitten."
+        ],
+        "richtigeAntwort": "Er muss zuhause bleiben und Freunde, Familie oder einen Hundesitter um Hilfe bitten.",
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden."
+      },
+      {
+        "frage": "Darf Frau Müller dies während dem Krankenstand?",
+        "schwierigkeit": "",
+        "antworten": [
+          "Nein, Frau Müller darf ihre Tochter nicht abholen, da sie krankgeschrieben ist und daher das Haus nicht verlassen darf.",
+          "Ja, man darf auch während des Krankenstands sein Leben weiterleben und beispielsweise auch das Fitnessstudio oder ein Kino besuchen.",
+          "Sie darf ihre Tochter vom Kindergarten abholen, solang dies ihren Genesungsprozess nicht beeinträchtigt und ihrer Gesundheit unschädlich ist."
+        ],
+        "richtigeAntwort": "Sie darf ihre Tochter vom Kindergarten abholen, solang dies ihren Genesungsprozess nicht beeinträchtigt und ihrer Gesundheit unschädlich ist.",
+        "erklaerung": "Die Frage, was man im Krankenstand tun darf oder nicht, ist stets nach dem  Einzelfall  und je nach Krankheitszustand ausschließlich durch den Arzt zu beurteilen. Die Tätigkeit darf jedenfalls den Krankheitsverlauf nicht negativ beeinflussen und das Gesundwerden verzögern. Beispielsweise dürfen aufgrund einer Grippe krankgeschriebene Arbeitnehmer:innen nicht im Freien spazieren gehen bzw. muss sich der Aufenthalt draußen auf die notwendigsten Dinge, wie Arztbesuche oder den Gang zur Apotheke beschränken.  Hingegen kann im Falle einer Depression der Gang in ein Restaurant oder ins Fitnesscenter  sowie lange Spaziergänge ein Teil der Behandlung sein. Wichtig ist, dass dies stets im Ermessen des behandelnden Arztes/ der behandelnden Ärztin liegt und von diesem/ihr zu entscheiden ist. Der Arbeitgeber sollte aber jedenfalls stets informiert werden."
+      },
+      {
         "frage": "",
+        "schwierigkeit": "",
         "antworten": [
           "",
           "",
@@ -43,35 +100,11 @@
         "erklaerung": ""
       }
     ],
-    "schwierigkeit": "LEICHT",
     "thema": "KRANKENSTAND",
     "absaetze": [
-      "",
-      "",
-      ""
-    ]
-  },
-  {
-    "name": "",
-    "fragen": [
-      {
-        "frage": "",
-        "antworten": [
-          "",
-          "",
-          ""
-        ],
-        "richtigeAntwort": "",
-        "erklaerung": ""
-      }
-    ],
-    "schwierigkeit": "LEICHT",
-    "thema": "KRANKENSTAND",
-    "absaetze": [
-      "",
-      "",
-      ""
+      "Herr Huber ist für zwei Wochen krankgeschrieben geschrieben. Er hat einen Golden Retriever, der mehrmals am Tag Gassi geführt werden muss.",
+      "Herr Huber hat eine schwere Lungenentzündung und liegt mit Fieber im Bett. Der Arzt betont, dass die Bettruhe strikt einzuhalten ist. Sein Hund, Kommissar Rex, muss aber trotzdem Gassi.",
+      "Frau Milly Müller ist im dritten Monat schwanger und als Reinigungskraft in einer Unternehmung angestellt. Aufgrund der Hyperemesis gravidarum (schwere Schwangerschaftsübelkeit) ist sie von ihrem Arzt für die nächsten Tage krankgeschrieben.Sie muss aber täglich ihre Tochter Emilia, 3 Jahre alt, vom Kindergarten abholen."
     ]
   }
-
 ]
