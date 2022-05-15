@@ -1,6 +1,7 @@
 package at.it_hackathon.authentication;
 
 
+import at.it_hackathon.user.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.web.bind.annotation.*;
@@ -17,12 +18,12 @@ public class AuthenticationController {
     }
 
     @PostMapping("/register")
-    public String register(@RequestBody RegistrationRequest registrationRequest){
+    public UserDTO register(@RequestBody RegistrationRequest registrationRequest){
         return authenticationService.register(registrationRequest);
     }
 
     @PostMapping("/signin")
-    public String register(@RequestBody SignInRequest signInRequest){
+    public UserDTO register(@RequestBody SignInRequest signInRequest){
         return authenticationService.signIn(signInRequest);
     }
 }
