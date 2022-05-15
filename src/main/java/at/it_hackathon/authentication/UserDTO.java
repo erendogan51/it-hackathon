@@ -9,6 +9,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public class UserDTO {
 
+    private final Long id;
     private final String username;
     private final String email;
     private final int points;
@@ -16,6 +17,7 @@ public class UserDTO {
 
     public static UserDTO userToDTO(User user) {
         return new UserDTO(
+                user.getId(),
                 user.getUsername(),
                 user.getEmail(),
                 user.getPoints()
