@@ -8,12 +8,12 @@ stages:
 maven-build:
   image: maven:3-openjdk-11
   stage: build
-  script: "mvn compile"
+  script: "mvn clean compile"
 
 maven-test:
   image: maven:3-openjdk-11
   stage: test
-  script: "mvn test"
+  script: "mvn clean test"
 
 maven-package:
   image: maven:3-openjdk-11
