@@ -23,14 +23,18 @@ public class Frage {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
+
+    @Type(type = "text")
     private String frage;
 
     @Enumerated(EnumType.STRING)
     private Schwierigkeit schwierigkeit;
 
+    @Type(type = "text")
     @ElementCollection
     private Set<String> antworten;
 
+    @Type(type = "text")
     private String richtigeAntwort;
     @Type(type = "text")
     private String erklaerung;
