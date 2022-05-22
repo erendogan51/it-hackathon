@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Set;
 
 @Service
 public class FrageService {
@@ -30,6 +31,14 @@ public class FrageService {
         if (frageRepository.existsById(frage.getId()))
             throw new IllegalStateException("Frage with id: " + frage.getId() + " already exists");
         frageRepository.save(frage);
+    }
+
+    public void addFrage(Set<Frage> fragen) {
+        for (Frage frage:fragen){
+            if (frageRepository.existsById(frage.getId()))
+                throw new IllegalStateException("Frage with id: " + frage.getId() + " already exists");
+        }
+        frageRepository.saveAll(fragen);
     }
 
     public void updateFrage(Frage frage) {
